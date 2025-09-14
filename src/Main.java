@@ -79,33 +79,34 @@ public class Main {
         System.out.println("Если сбрасывать по " + lossWeight2 + " грамм, то уйдёт " + daysLoss2 + " дней ");
         int averageLoss = (daysLoss1 + daysLoss2) / 2;
         System.out.println("В среднем для похудения потребуется " + averageLoss + " день ");
-        int Masha = 67760;
-        int Denis = 83690;
-        int Kristina = 76230;
-        int MashaPromotion = Masha + (Masha / 100 * 10);
-        System.out.println("Маша теперь получает " + MashaPromotion + " рублей");
-        int DenisPromotion = Denis + (Denis / 100 * 10);
-        System.out.println("Денис теперь получает " + DenisPromotion + " рублей");
-        int KristinaPromotion = Kristina + (Kristina / 100 * 10);
-        System.out.println("Кристина теперь получает " + KristinaPromotion + " рублей");
-        int MashaYear = Masha * 12;
-        System.out.println("Годовой доход Маши до повышения " + MashaYear + " рублей");
-        int DenisYear = Denis * 12;
-        System.out.println("Годовой доход Дениса до повышения " + DenisYear + " рублей");
-        int KristinaYear = Kristina * 12;
-        System.out.println("Годовой доход Кристины до повышения " + KristinaYear + " рублей");
-        int MashaPromotionYear = MashaPromotion * 12;
-        System.out.println("Годовой доход Маши после повышения " + MashaPromotionYear + " рублей");
-        int DenisPromotionYear = DenisPromotion * 12;
-        System.out.println("Годовой доход Дениса после повышения " + DenisPromotionYear + " рублей");
-        int KristinaPromotionYear = KristinaPromotion * 12;
-        System.out.println("Годовой доход Кристины после повышения " + KristinaPromotionYear + " рублей");
-        int incomeGrowthMasha = MashaPromotionYear - MashaYear;
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        int mashaPromotion = mashaSalary + (mashaSalary / 100 * 10);
+        System.out.println("Маша теперь получает " + mashaPromotion + " рублей");
+        int denisPromotion = denisSalary + (denisSalary / 100 * 10);
+        System.out.println("Денис теперь получает " + denisPromotion + " рублей");
+        int kristinaPromotion = kristinaSalary + (kristinaSalary / 100 * 10);
+        System.out.println("Кристина теперь получает " + kristinaPromotion + " рублей");
+        int mashaYear = mashaSalary * 12;
+        System.out.println("Годовой доход Маши до повышения " + mashaYear + " рублей");
+        int denisYear = denisSalary * 12;
+        System.out.println("Годовой доход Дениса до повышения " + denisYear + " рублей");
+        int kristinaYear = kristinaSalary * 12;
+        System.out.println("Годовой доход Кристины до повышения " + kristinaYear + " рублей");
+        int mashaPromotionYear = mashaPromotion * 12;
+        System.out.println("Годовой доход Маши после повышения " + mashaPromotionYear + " рублей");
+        int denisPromotionYear = denisPromotion * 12;
+        System.out.println("Годовой доход Дениса после повышения " + denisPromotionYear + " рублей");
+        int kristinaPromotionYear = kristinaPromotion * 12;
+        System.out.println("Годовой доход Кристины после повышения " + kristinaPromotionYear + " рублей");
+        int incomeGrowthMasha = mashaPromotionYear - mashaYear;
         System.out.println("Годовой доход Маши вырос на " + incomeGrowthMasha + " рублей");
-        int incomeGrowthDenis = DenisPromotionYear - DenisYear;
+        int incomeGrowthDenis = denisPromotionYear - denisYear;
         System.out.println("Годовой доход Дениса вырос на " + incomeGrowthDenis + " рублей");
-        int incomeGrowthKristina = KristinaPromotionYear - KristinaYear;
+        int incomeGrowthKristina = kristinaPromotionYear - kristinaYear;
         System.out.println("Годовой доход Кристины вырос на " + incomeGrowthKristina + " рублей");
+
 
 
 
